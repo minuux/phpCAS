@@ -1858,6 +1858,11 @@ class phpCAS
     {
         self::$_PHPCAS_CLIENT = $client;
     }
+    
+    public static function setBaseUrl($url)
+    {
+       self::$_PHPCAS_CLIENT->setBaseUrl($url);
+    }
 }
 // ########################################################################
 // DOCUMENTATION
